@@ -4,13 +4,13 @@ import type { LocaleType } from "./index";
 const tw: LocaleType = {
   WIP: "該功能仍在開發中……",
   Error: {
-    Unauthorized: "目前您的狀態是未授權，請前往設定頁面輸入授權碼。",
+    Unauthorized: "授權碼請聯繫Flora，目前您的狀態是未授權，請前往設定頁面輸入授權碼。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 條對話`,
   },
   Chat: {
-    SubTitle: (count: number) => `您已經與 ChatGPT 進行了 ${count} 條對話`,
+    SubTitle: (count: number) => `您已經與 超可愛萊寶 進行了 ${count} 條對話`,
     Actions: {
       ChatList: "查看訊息列表",
       CompressedHistory: "查看壓縮後的歷史 Prompt",
@@ -21,7 +21,7 @@ const tw: LocaleType = {
       Delete: "刪除",
     },
     Rename: "重命名對話",
-    Typing: "正在輸入…",
+    Typing: "別想這麼多了隨便問把反正公司付帳單…",
     Input: (submitKey: string) => {
       var inputHints = `輸入訊息後，按下 ${submitKey} 鍵即可發送`;
       if (submitKey === String(SubmitKey.Enter)) {
@@ -122,8 +122,8 @@ const tw: LocaleType = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "使用自己的 Key 可規避授權存取限制",
-      Placeholder: "OpenAI API Key",
+      SubTitle: "忽略此項",
+      Placeholder: "API Key",
     },
     Usage: {
       Title: "帳戶餘額",
@@ -155,7 +155,7 @@ const tw: LocaleType = {
   },
   Store: {
     DefaultTopic: "新的對話",
-    BotHello: "請問需要我的協助嗎？",
+    BotHello: "我是萊寶bot，又名TRGPT，需要什麼幫助？",
     Error: "出錯了，請稍後再嘗試",
     Prompt: {
       History: (content: string) =>

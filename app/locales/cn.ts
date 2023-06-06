@@ -4,13 +4,13 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。",
+      "密码请问Flora，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
   },
   Chat: {
-    SubTitle: (count: number) => `与 ChatGPT 的 ${count} 条对话`,
+    SubTitle: (count: number) => `与 莱宝TRGPT 的 ${count} 条对话`,
     Actions: {
       ChatList: "查看消息列表",
       CompressedHistory: "查看压缩后的历史 Prompt",
@@ -21,7 +21,7 @@ const cn = {
       Delete: "删除",
     },
     Rename: "重命名对话",
-    Typing: "正在输入…",
+    Typing: "此时一名市场部员工在努力工作中…",
     Input: (submitKey: string) => {
       var inputHints = `${submitKey} 发送`;
       if (submitKey === String(SubmitKey.Enter)) {
@@ -134,16 +134,16 @@ const cn = {
     },
     HistoryCount: {
       Title: "附带历史消息数",
-      SubTitle: "每次请求携带的历史消息数",
+      SubTitle: "消息越多记性越好，越贵，越容易崩溃",
     },
     CompressThreshold: {
       Title: "历史消息长度压缩阈值",
-      SubTitle: "当未压缩的历史消息超过该值时，将进行压缩",
+      SubTitle: "有时给多了记不住，用这个可以选择性记重点",
     },
     Token: {
       Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过密码访问限制",
-      Placeholder: "OpenAI API Key",
+      SubTitle: "可以忽略",
+      Placeholder: "API Key",
     },
 
     Usage: {
@@ -176,7 +176,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "我是市场部的TRGPT bot，有什么可以帮你的吗",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

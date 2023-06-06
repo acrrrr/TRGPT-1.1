@@ -5,13 +5,13 @@ const en: RequiredLocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized:
-      "Unauthorized access, please enter access code in settings page.",
+      "Ask Flora for password, please enter access code in settings page.",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} messages`,
   },
   Chat: {
-    SubTitle: (count: number) => `${count} messages with ChatGPT`,
+    SubTitle: (count: number) => `${count} messages with TRGPT`,
     Actions: {
       ChatList: "Go To Chat List",
       CompressedHistory: "Compressed History Memory Prompt",
@@ -22,7 +22,7 @@ const en: RequiredLocaleType = {
       Delete: "Delete",
     },
     Rename: "Rename Chat",
-    Typing: "Typing…",
+    Typing: "A Marketing dude is thinking really hard...",
     Input: (submitKey: string) => {
       var inputHints = `${submitKey} to send`;
       if (submitKey === String(SubmitKey.Enter)) {
@@ -144,8 +144,8 @@ const en: RequiredLocaleType = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "Use your key to ignore access code limit",
-      Placeholder: "OpenAI API Key",
+      SubTitle: "Pls ignore",
+      Placeholder: "Pls ignore",
     },
     Usage: {
       Title: "Account Balance",
@@ -178,7 +178,7 @@ const en: RequiredLocaleType = {
   },
   Store: {
     DefaultTopic: "New Conversation",
-    BotHello: "Hello! How can I assist you today?",
+    BotHello: "I am MKT's TRGPT, not so preciously right but very smart, how may I help?",
     Error: "Something went wrong, please try again later.",
     Prompt: {
       History: (content: string) =>
