@@ -119,7 +119,7 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>TRGPT ver.2 GPT4</div>
+        <div className={styles["sidebar-title"]}>TRGPT ver.2 GPT 3.5</div>
         <div className={styles["sidebar-sub-title"]}>
           Powered by Digital Team, FOR INTERNAL TEST ONLY, DO NOT UPLOAD SENSITIVE INFO.
         </div>
