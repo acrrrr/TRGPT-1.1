@@ -7,8 +7,8 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "ChatGPT Next Web",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "TRGPT ver.2 GPT3.5",
+  description: "Codename Tuvy, grant you the power for CHATGPT",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -16,10 +16,10 @@ export const metadata = {
   },
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#fafafa" },
-    { media: "(prefers-color-scheme: dark)", color: "#151515" },
+    { media: "(prefers-color-scheme: dark)", color: "#005eb8" },
   ],
   appleWebApp: {
-    title: "ChatGPT Next Web",
+    title: "TRGPT ver.2 GPT3.5",
     statusBarStyle: "default",
   },
 };
